@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{B0C6C77B-5C82-40FB-976D-B4C3B779EA28}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ratings.iOS</RootNamespace>
+    <AssemblyName>ratings.iOS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>16888</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\.DS_Store" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\1Stars.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\1Stars%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\1Stars%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\2Stars.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\2Stars%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\2Stars%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\3Stars.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\3Stars%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\3Stars%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\4Stars.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\4Stars%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\4Stars%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\5Stars.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\5Stars%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\5Stars%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\Gestures.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\Gestures%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\Gestures%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\Players%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Images\Players%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="PlayersViewController.cs" />
+    <Compile Include="PlayersViewController.designer.cs">
+      <DependentUpon>PlayersViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomCell.cs" />
+    <Compile Include="CustomCell.designer.cs">
+      <DependentUpon>CustomCell.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\..\Downloads\Images\.DS_Store">
+      <Link>Resources\Images\.DS_Store</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\1Stars.png">
+      <Link>Resources\Images\1Stars.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\1Stars%402x.png">
+      <Link>Resources\Images\1Stars%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\1Stars%403x.png">
+      <Link>Resources\Images\1Stars%403x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\2Stars.png">
+      <Link>Resources\Images\2Stars.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\2Stars%402x.png">
+      <Link>Resources\Images\2Stars%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\2Stars%403x.png">
+      <Link>Resources\Images\2Stars%403x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\3Stars.png">
+      <Link>Resources\Images\3Stars.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\3Stars%402x.png">
+      <Link>Resources\Images\3Stars%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\3Stars%403x.png">
+      <Link>Resources\Images\3Stars%403x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\4Stars.png">
+      <Link>Resources\Images\4Stars.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\4Stars%402x.png">
+      <Link>Resources\Images\4Stars%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\4Stars%403x.png">
+      <Link>Resources\Images\4Stars%403x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\5Stars.png">
+      <Link>Resources\Images\5Stars.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\5Stars%402x.png">
+      <Link>Resources\Images\5Stars%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\5Stars%403x.png">
+      <Link>Resources\Images\5Stars%403x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\Gestures.png">
+      <Link>Resources\Images\Gestures.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\Gestures%402x.png">
+      <Link>Resources\Images\Gestures%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\Gestures%403x.png">
+      <Link>Resources\Images\Gestures%403x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\Players.png">
+      <Link>Resources\Images\Players.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\Players%402x.png">
+      <Link>Resources\Images\Players%402x.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\..\..\Downloads\Images\Players%403x.png">
+      <Link>Resources\Images\Players%403x.png</Link>
+    </BundleResource>
+  </ItemGroup>
+  <Import Project="..\ratings\ratings.projitems" Label="Shared" Condition="Exists('..\ratings\ratings.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

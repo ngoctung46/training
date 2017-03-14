@@ -1,0 +1,4 @@
+ratings.Droid.MainActivity, ratings.Droid;md5eb5e6903231cd3f7ac5c206ad075e493.MainActivity
+ratings.Droid.MainActivity, ratings.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5eb5e6903231cd3f7ac5c206ad075e493.MainActivity
+ratings.Droid.MainActivity;md5eb5e6903231cd3f7ac5c206ad075e493.MainActivity
+ratings.droid.MainActivity;md5eb5e6903231cd3f7ac5c206ad075e493.MainActivity

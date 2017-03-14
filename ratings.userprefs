@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{B0C6C77B-5C82-40FB-976D-B4C3B779EA28}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.storyboard">
+    <Files>
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/CustomCell.cs" Line="18" Column="1" />
+      <File FileName="iOS/PlayersViewController.cs" Line="62" Column="3" />
+      <File FileName="iOS/PlayersViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../PhoneWorld.iOS/PhoneWorld.iOS/PhoneTranslator.cs" line="35" offsetX="401" offsetY="578" expression="newNumber" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.ratings.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.681DAECC-CD80-4706-9229-637B471E8B5E" />
+  <MultiItemStartupConfigurations />
+</Properties>

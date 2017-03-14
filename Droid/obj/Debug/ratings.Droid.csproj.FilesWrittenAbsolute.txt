@@ -1,0 +1,17 @@
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/ngoctung46/Projects/ratings/Droid/bin/Debug/ratings.Droid.dll.mdb
+/Users/ngoctung46/Projects/ratings/Droid/bin/Debug/ratings.Droid.dll
+/Users/ngoctung46/Projects/ratings/Droid/bin/Debug/floatingcube.com.ratings.apk
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/android/bin/floatingcube.com.ratings.apk
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/layout/main.xml
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/values/strings.xml
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/R.cs.flag
+/Users/ngoctung46/Projects/ratings/Droid/bin/Debug/floatingcube.com.ratings-Signed.apk
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/uploadflags.txt
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/ratings.Droid.dll
+/Users/ngoctung46/Projects/ratings/Droid/obj/Debug/ratings.Droid.dll.mdb
