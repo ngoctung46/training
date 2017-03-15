@@ -36,7 +36,9 @@ namespace ratings.iOS
 			public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
 			{
 				var cell = tableView.DequeueReusableCell("CustomCell") as CustomCell;
-				Player player = controller.Players[indexPath.Row] as Player;
+                
+				Player player = controller.Players[indexPath.Row] as Player;  
+
 				cell.UpdateCell(player.Name, player.Game, imageForRating(player.Rating));
 				return cell;
 			}
@@ -45,24 +47,35 @@ namespace ratings.iOS
 			{
 				return controller.Players.Count;
 			}
+            
 
 			public UIImage imageForRating(int rating)
 			{
-				string imageName = $"Images/{rating}Stars";
-				return new UIImage(imageName);
+				string imageName = $"{rating}Stars";
+				return UIImage.FromBundle(imageName);
 			}
 		}
 
-		//[Action ("UnwindToPlayerDetail")]
-		//public void cancelToPlayersViewController(UIStoryboardSegue seque) 
-		//{
+		[Action ("CancelToPlayersViewController:")]
+		public void CancelToPlayersViewController(UIStoryboardSegue seque) 
+		{
 			
-		//}
+		}
 
-		//[Action ("Save player detail")]
-		//public void savePlayerDetail(UIStoryboardSegue seque) 
-		//{
-			
-		//}
+		[Action ("SavePlayerDetails:")]
+		public void SavePlayerDetails(UIStoryboardSegue seque) 
+		{
+            var playerDetailsViewController = seque.SourceViewController as PlayerDetailsViewController;
+            if (playerDetailsViewController != null)
+            {
+                var player = playerDetailsViewController.player;
+                if (player != null)
+                {
+                    Players.Add(player);                    
+                    var indexPath = new NSIndexPath[] { NSIndexPath.FromRowSection(Players.Count - 1, 0) };
+                    TableView.InsertRows(indexPath, UITableViewRowAnimation.Automatic);
+                }
+            }	
+		}
 	}
 }

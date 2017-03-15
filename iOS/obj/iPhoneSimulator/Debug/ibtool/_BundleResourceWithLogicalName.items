@@ -17,6 +17,14 @@
       <LogicalName>Main.storyboardc/146-view-147.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Main.storyboardc\3586-view-3588.nib">
+      <LogicalName>Main.storyboardc/3586-view-3588.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Main.storyboardc\4095-view-4096.nib">
+      <LogicalName>Main.storyboardc/4095-view-4096.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Main.storyboardc\Info.plist">
       <LogicalName>Main.storyboardc/Info.plist</LogicalName>
       <Optimize>false</Optimize>
@@ -25,8 +33,16 @@
       <LogicalName>Main.storyboardc/JLk-t9-Lfk-view-f6V-xD-IQY.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Main.storyboardc\UINavigationController-3595.nib">
+      <LogicalName>Main.storyboardc/UINavigationController-3595.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Main.storyboardc\UITabBarController-2xx-Me-HcE.nib">
       <LogicalName>Main.storyboardc/UITabBarController-2xx-Me-HcE.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Main.storyboardc\UITableViewController-4095.nib">
+      <LogicalName>Main.storyboardc/UITableViewController-4095.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
   </ItemGroup>
